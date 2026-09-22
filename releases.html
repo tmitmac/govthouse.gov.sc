@@ -130,12 +130,18 @@
   text-decoration: underline;
 }
 
-    .news-image {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      background: #d1d5db;
-      margin-bottom: 1rem;
-    }
+  .news-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 1rem;
+    background: #d1d5db;
+  }
+
+  .news-link:hover .news-image {
+    opacity: 0.92;
+  }
 
     .news-card span {
       display: block;
@@ -220,41 +226,47 @@
 <main>
   <div class="news-grid">
 
-<a href="news-priorities.html" class="news-link">   
+  <a href="releases/curwick-reservoir-comes-online.html" class="news-link">   
     <article class="news-card">
-      <div class="news-image"></div>
-      <span>Today • Statement</span>
-      <h3>Prime Minister outlines national priorities for the year ahead</h3>
-      <p>The Prime Minister delivered a statement setting out the government’s focus on economic stability, infrastructure, and public services.</p>
+      <img src="images/reservoir.png" alt="Curwick Village Reservoir" class="news-image">
+      <span>22 Sep 2026 • Statement</span>
+      <h3>Curwick Village Reservoir Finally Comes Online</h3>
     </article>
-</a>    
+  </a>  
 
-<a href="news-infrastucture-investment.html" class="news-link">  
+  <a href="iran-statement.html" class="news-link">   
     <article class="news-card">
-      <div class="news-image"></div>
+      <img src="images/iran.jpg" alt="Prime Minister delivering an official statement" class="news-image">
+      <span>Today • Statement</span>
+      <h3>Prime Minister provides an official statement on US-Iran conflict</h3>
+    </article>
+  </a>    
+
+  <a href="news-infrastucture-investment.html" class="news-link">  
+    <article class="news-card">
+      <img src="images/infrastructure.jpg" alt="Major infrastructure investment project" class="news-image">
       <span>2 days ago • Release</span>
       <h3>White House announces major infrastructure investment</h3>
-      <p>A new nationwide infrastructure programme aims to modernise transport and public works across Square Country.</p>
     </article>
-</a>
+  </a>
 
-<a href="news-internationalleaders.html" class="news-link">
-  <article class="news-card">
-    <div class="news-image"></div>
-    <span>1 week ago • Diplomacy</span>
-    <h3>International leaders welcomed to Square Country</h3>
-    <p>The Prime Minister hosted leaders from partner nations to strengthen diplomatic and economic cooperation.</p>
-  </article>
-</a>
-
-<a href="news-initiatives.html" class="news-link">
+  <a href="news-internationalleaders.html" class="news-link">
     <article class="news-card">
-      <div class="news-image"></div>
+      <img src="images/international-leaders.jpg" alt="International leaders welcomed to Square Country" class="news-image">
+      <span>1 week ago • Diplomacy</span>
+      <h3>International leaders welcomed to Square Country</h3>
+    </article>
+  </a>
+
+  <a href="news-initiatives.html" class="news-link">
+    <article class="news-card">
+      <img src="images/initiatives.jpg" alt="Weekly White House press briefing" class="news-image">
       <span>2 weeks ago • Briefing</span>
       <h3>Weekly press briefing highlights government initiatives</h3>
-      <p>Senior officials provided updates on current legislation, public services, and upcoming policy announcements.</p>
     </article>
-  </div>
+  </a>
+
+</div>
 </a> 
 </main>
 
