@@ -1,12 +1,25 @@
 const releases = [
 
   {
+    title: "New Glentown Tunnel Opens",
+    description: "The recently upgraded Glentown Tunnel has officially opened, after almost three years of development.",
+    portfolio: "Infrastructure",
+    type: "Statement",
+    date: "2026-10-06",
+    displayDate: "6 Oct 2026",
+    image: "images/glentown.png",
+    imageAlt: "Glentown Tunnel",
+    link: "releases/infrastructure/new-glentown-tunnel-opens.html",
+    badge: "Energy"
+  },
+
+  {
     title: "Curwick Village Reservoir Finally Comes Online",
     description: "The Curwick Village Reservoir has officially come online following years of planning and construction.",
     portfolio: "Energy",
     type: "Statement",
     date: "2026-09-22",
-    displayDate: "6 Oct 2026",
+    displayDate: "22 September 2026",
     image: "images/reservoir.png",
     imageAlt: "Curwick Village Reservoir",
     link: "releases/energy/curwick-reservoir-comes-online.html",
